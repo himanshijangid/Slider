@@ -6,14 +6,14 @@ show_image(Index);
 
 function show_image(i){
      i ;
-    Index += i;
+    Index += Index;
     let image =document.getElementsByClassName("image");
     let dots = document.getElementsByClassName("dot");
     if(i > image.length-1){
         Index = 0;
 
     }
-    if(Index < 1){
+    if(Index < 0){
         Index = image.length - 1;
     }
     for (i = 0 ; i < image.length ;  i++){
