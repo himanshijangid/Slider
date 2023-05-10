@@ -35,32 +35,39 @@
     <!-- HEADER END -->
     <!-- MAIN START -->
     <div class="body">
-      <div class="container">
-        <div class="image fade">
-            <img src="01.jpg" alt="" width="1050px" height="500px">
-        </div>
-        <div class="image fade">
-            <img src="02.jpg" alt="" width="1050px" height="500px">
-        </div>
-        <div class="image fade">
-            <img src="03.jpg" alt="" width="1050px" height="500px">
-        </div>
-        <div class="image fade">
-            <img src="04.jpg" alt="" width="1050px" height="500px">
-        </div>
-        <div class="image fade">
-            <img src="05.jpg" alt="" width="1050px" height="500px">
-        </div>
-    </div>
-    <i id="prev" onclick="show_image(-1)" class="fas fa-chevron-left"></i>
-    <i id="next" onclick="show_image(1)" class="fas fa-chevron-right"></i>
+      <div class="slideshow-container">
 
-    <div class="dots">
-        <span class="dot active"></span>
-        <span class="dot"></span>
-        <span class="dot"></span> 
-        <span class="dot"></span>
-    </div>
+        <div class="mySlides fade">
+          <img src="01.jpg" style="width:850px; height:500px;">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="02.jpg" style="width:850px; height:500px;">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="03.jpg" style="width:850px; height:500px;">
+        </div>
+        <div class="mySlides fade">
+          <img src="04.jpg" style="width:850px; height:500px;">
+        </div>
+        <div class="mySlides fade">
+          <img src="05.jpg" style="width:850px; height:500px;">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
 
          
     
